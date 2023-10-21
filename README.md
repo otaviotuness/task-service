@@ -1,6 +1,4 @@
-########################################
 # To-Do List Service
-########################################
 
 Bem-vindo ao serviço de gerenciamento de lista de tarefas (to-do list) desenvolvido como parte de um estudo de arquitetura hexagonal em Java e Spring Boot.
 
