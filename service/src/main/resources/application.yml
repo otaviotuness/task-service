@@ -1,0 +1,13 @@
+spring:
+  h2:
+    console:
+      enabled: true # Ativa a interface web do H2
+    datasource:
+      url: jdbc:h2:mem:testdb # URL do banco de dados H2 em memória
+      driverClassName: org.h2.Driver # Classe do driver H2
+      username: sa # Usuário do banco de dados
+      password: # Senha do banco de dados (deixe em branco)
+  hibernate:
+    ddl-auto: update # Atualiza automaticamente o esquema do banco de dados
+  jpa:
+    show-sql: true # Mostra as consultas SQL no console
